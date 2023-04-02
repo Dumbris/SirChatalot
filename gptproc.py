@@ -282,7 +282,8 @@ class GPT:
             return wav_file
         except Exception as e:
             logger.exception('Could not convert ogg to wav')
-            return Noneself.add_stats
+            return None
+        #self.add_stats
 
     def chat_voice(self, id=0, audio_file=None) -> str:
         '''

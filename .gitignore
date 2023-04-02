@@ -150,3 +150,5 @@ rates.txt
 *.mp3
 *.wav
 *.pickle
+.pyenv
+.python-version

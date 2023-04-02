@@ -573,9 +573,9 @@ def main() -> None:
     application.add_handler(CommandHandler("statistics", statistics_command))
     application.add_handler(CommandHandler("limit", limit_command))
 
-    # application.add_handler(CommandHandler("save_session", save_session_command))
-    # application.add_handler(CommandHandler("load_session", load_session_command))
-    # application.add_handler(CommandHandler("delete_session", delete_session_command))
+    application.add_handler(CommandHandler("save_session", save_session_command))
+    application.add_handler(CommandHandler("load_session", load_session_command))
+    #application.add_handler(CommandHandler("delete_session", delete_session_command))
 
     application.add_handler(CommandHandler("style", style_command))
     application.add_handler(CallbackQueryHandler(button))
